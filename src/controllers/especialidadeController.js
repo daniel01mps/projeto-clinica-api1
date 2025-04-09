@@ -21,5 +21,9 @@ async function deletaUmaEspecialidade() {
 }
 
 module.exports = {
-    buscarEspecialidades
+    buscarEspecialidades,
+    buscaUmaEspecialidade,
+    criaUmaEspecialidade,
+    editaUmaEspecialidade,
+    deletaUmaEspecialidade
 }
