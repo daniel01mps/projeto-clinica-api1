@@ -26,6 +26,10 @@ app.get("/boas-vindas/:nome", (req, res) => {
     res.send(`Seja bem-vindo ${req.params.nome}`);
 });
 
+app.use((req, res) => {
+    res.status(404).send("Rota não encontrada!");
+})
+
 app.listen(port, () => {
     console.log(`Servidor de pé: http://localhost:${port}`);
 })
