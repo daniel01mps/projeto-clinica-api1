@@ -7,7 +7,7 @@ async function buscarEspecialidades(){
 
 async function buscaUmaEspecialidade(id) {
     return await prisma.especialidades.findFirst({
-        where: {
+        where: { 
             especialidade_id: Number(id)
         }
     });
