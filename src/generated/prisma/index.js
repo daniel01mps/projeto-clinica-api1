@@ -189,7 +189,7 @@ const config = {
       "value": "prisma-client-js"
     },
     "output": {
-      "value": "C:\\Users\\francisco.rocha\\Documents\\projeto-clinica-api\\src\\generated\\prisma",
+      "value": "C:\\Users\\carlospires0794\\Desktop\\projeto-clinica-api1\\src\\generated\\prisma",
       "fromEnvVar": null
     },
     "config": {
@@ -203,11 +203,11 @@ const config = {
       }
     ],
     "previewFeatures": [],
-    "sourceFilePath": "C:\\Users\\francisco.rocha\\Documents\\projeto-clinica-api\\prisma\\schema.prisma",
+    "sourceFilePath": "C:\\Users\\carlospires0794\\Desktop\\projeto-clinica-api1\\prisma\\schema.prisma",
     "isCustomOutput": true
   },
   "relativeEnvPaths": {
-    "rootEnvPath": "../../../.env",
+    "rootEnvPath": null,
     "schemaEnvPath": "../../../.env"
   },
   "relativePath": "../../../prisma",
@@ -217,7 +217,7 @@ const config = {
     "db"
   ],
   "activeProvider": "mysql",
-  "postinstall": false,
+  "postinstall": true,
   "inlineDatasources": {
     "db": {
       "url": {
