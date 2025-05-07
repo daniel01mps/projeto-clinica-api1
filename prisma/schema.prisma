@@ -69,6 +69,7 @@ model pacientes {
   paciente_nascimento String      @db.VarChar(10)
   paciente_email      String?     @db.VarChar(50)
   paciente_telefone   String      @db.VarChar(20)
+  exame_id            Int?
   consultas           consultas[]
   exames              exames[]
 }
@@ -101,10 +102,9 @@ model status {
   consultas   consultas[]
 }
 
-model usuario {
-  usuario_id    Int        @id @unique(map: "usuario_id") @default(autoincrement())
-  usuario_nome  String     @db.VarChar(20)
-  usuario_email String     @db.VarChar(50) @unique
-  usuario_senha String     @db.VarChar(255)
-
+model usuarios {
+  usuario_id    Int    @id @unique(map: "usuario_id") @default(autoincrement())
+  usuario_nome  String @db.VarChar(20)
+  usuario_email String @db.VarChar(50)
+  usuario_senha String @db.VarChar(255)
 }
